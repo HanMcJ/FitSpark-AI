@@ -1,0 +1,8 @@
+# .gitignore --> edit for deployment 
+venv/
+__pycache__/
+*.pyc
+.env  
+.ipynb_checkpoints/
+
+

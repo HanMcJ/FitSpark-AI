@@ -129,8 +129,8 @@ if "task4_end_time" not in st.session_state:
 
 
 # Load the Q-table from the specified path
-Q_TABLE_PATH = os.path.join("Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for deployment
-#Q_TABLE_PATH = os.path.join("FitSpark-1", "Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for local testing
+#Q_TABLE_PATH = os.path.join("Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for deployment
+Q_TABLE_PATH = os.path.join("Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for local testing
 q_values = load_q_table(Q_TABLE_PATH)
 state = 0
 
