@@ -1,5 +1,7 @@
 # FitSpark-AI
-#### An AI-enhanced prototype fitness application built with Python V3.11 (and Streamlit) and developed as part of a Master's dissertation project. This version integrates a reinforcement learning (Q-learning) agent within the Adaptation Engine to personalize workout recommendations. The Q-learning agent is adapted from Gaspar-Figueiredo et al (2024): https://github.com/RESQUELAB/RL-UIAdaptation (full reference below). 
+#### An AI-enhanced prototype fitness application built with Python V3.11 (and Streamlit) and developed as part of a Master's dissertation project. 
+
+#### This version integrates a reinforcement learning (Q-learning) agent within the Adaptation Engine to personalize workout recommendations. The Q-learning agent is adapted from Gaspar-Figueiredo et al (2024): https://github.com/RESQUELAB/RL-UIAdaptation (full reference below). 
 
 ### Features 
 - Personalized workout recommendations based on a pre-trained Q-agent. 
