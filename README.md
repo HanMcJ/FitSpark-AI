@@ -31,7 +31,7 @@ pip install -r requirements.txt
 
 3. Run the applicatio:  
 ```
-streamlit run view.py
+streamlit run FitSpark-AI/view.py
 ```
 
 ### References
