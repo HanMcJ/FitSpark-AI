@@ -130,7 +130,7 @@ if "task4_end_time" not in st.session_state:
 
 # Load the Q-table from the specified path
 #Q_TABLE_PATH = os.path.join("Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for deployment
-Q_TABLE_PATH = os.path.join("FitSpark-AI","Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for local testing
+Q_TABLE_PATH = os.path.join("Adaptation_Engine", "RL_Algorithms", "q_table_V1.pickle") # version for local testing
 q_values = load_q_table(Q_TABLE_PATH)
 state = 0
 
@@ -554,9 +554,6 @@ def home_page():
 
 
 
-
-
-
     all_subs = [w for sublist in sub_workouts.values() for w in sublist]
 
     if search_query:
@@ -580,14 +577,14 @@ def home_page():
 
 
     elif st.session_state.get("filtered_search_results"):
-        display_workout_grid(st.session_state.filtered_search_results, key_prefix="home", columns=3) # Display the workout cards in a grid format
+        display_workout_grid(st.session_state.filtered_search_results, key_prefix="home", columns=3) 
     
     else: 
         if "sampled_subs" not in st.session_state:
             st.session_state.sampled_subs = []
 
         filtered_subs = st.session_state.sampled_subs
-        display_workout_grid(filtered_subs, key_prefix="home", columns=3) # Display the workout cards in a grid format
+        display_workout_grid(filtered_subs, key_prefix="home", columns=3) 
 
     
     # Refresh sample workouts

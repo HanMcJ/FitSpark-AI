@@ -31,8 +31,10 @@ pip install -r requirements.txt
 
 3. Run the applicatio:  
 ```
-streamlit run FitSpark-AI/view.py
+streamlit run view.py
 ```
+
+4. Log in to the application with the ID **'user1'**
 
 ### References
 This project leverages and adapts methods from:
